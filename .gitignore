@@ -1,0 +1,4 @@
+#ignore all kind of files
+*backups*
+*cache*
+*.kicad_prl
