@@ -1,0 +1,311 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Nov  3 2024, 06:58:22) [MSC v.1939 64 bit (AMD64)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 8.0.7 with 4.2.2 msw (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\1000e\\OneDrive\\Documents\\Keyboard projects\\snake\\snake-pcb\\snake-kle.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -3.5, "y": -4.0, "orientation": -90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "S{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:361]: Set key 1U distance: 19050000/19050000
+[key_placer.py:123]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Net-(D35-K)', 'unconnected-(MX42-Pad1)'}): ['MX42'], frozenset({'unconnected-(MX41-Pad1)', 'Net-(D35-K)'}): ['MX41'], frozenset({'Net-(D35-K)', 'unconnected-(MX40-Pad1)'}): ['MX40'], frozenset({'Net-(D35-K)', 'unconnected-(MX43-Pad1)'}): ['MX43'], frozenset({'Net-(D35-K)', 'unconnected-(MX39-Pad1)'}): ['MX39'], frozenset({'Net-(D35-K)', 'unconnected-(MX38-Pad1)'}): ['MX38'], frozenset({'Net-(MX14-Pad1)', 'Net-(D35-K)'}): ['MX37'], frozenset({'Net-(D35-K)', 'Net-(MX1-Pad1)'}): ['MX36'], frozenset({'unconnected-(MX35-Pad1)', 'Net-(D35-K)'}): ['MX35'], frozenset({'Net-(MX10-Pad1)', 'Net-(D25-K)'}): ['MX34'], frozenset({'Net-(MX21-Pad1)', 'Net-(D25-K)'}): ['MX33'], frozenset({'Net-(D25-K)', 'Net-(MX20-Pad1)'}): ['MX32'], frozenset({'Net-(MX19-Pad1)', 'Net-(D25-K)'}): ['MX31'], frozenset({'Net-(D25-K)', 'Net-(MX18-Pad1)'}): ['MX30'], frozenset({'Net-(D25-K)', 'Net-(MX17-Pad1)'}): ['MX29'], frozenset({'Net-(D25-K)', 'Net-(MX16-Pad1)'}): ['MX28'], frozenset({'Net-(D25-K)', 'Net-(MX15-Pad1)'}): ['MX27'], frozenset({'Net-(D25-K)', 'Net-(MX14-Pad1)'}): ['MX26'], frozenset({'Net-(D25-K)', 'Net-(MX1-Pad1)'}): ['MX25'], frozenset({'Net-(MX12-Pad1)', 'Net-(D13-K)'}): ['MX24'], frozenset({'Net-(MX11-Pad1)', 'Net-(D13-K)'}): ['MX23'], frozenset({'Net-(MX10-Pad1)', 'Net-(D13-K)'}): ['MX22'], frozenset({'Net-(MX21-Pad1)', 'Net-(D13-K)'}): ['MX21'], frozenset({'Net-(MX20-Pad1)', 'Net-(D13-K)'}): ['MX20'], frozenset({'Net-(MX19-Pad1)', 'Net-(D13-K)'}): ['MX19'], frozenset({'Net-(MX18-Pad1)', 'Net-(D13-K)'}): ['MX18'], frozenset({'Net-(MX16-Pad1)', 'Net-(D13-K)'}): ['MX16'], frozenset({'Net-(MX15-Pad1)', 'Net-(D13-K)'}): ['MX15'], frozenset({'Net-(MX14-Pad1)', 'Net-(D13-K)'}): ['MX14'], frozenset({'Net-(MX1-Pad1)', 'Net-(D13-K)'}): ['MX13'], frozenset({'Net-(MX12-Pad1)', 'Net-(D1-K)'}): ['MX12'], frozenset({'Net-(MX11-Pad1)', 'Net-(D1-K)'}): ['MX11'], frozenset({'Net-(MX10-Pad1)', 'Net-(D1-K)'}): ['MX10'], frozenset({'Net-(MX21-Pad1)', 'Net-(D1-K)'}): ['MX9'], frozenset({'Net-(MX20-Pad1)', 'Net-(D1-K)'}): ['MX8'], frozenset({'Net-(MX19-Pad1)', 'Net-(D1-K)'}): ['MX7'], frozenset({'Net-(MX18-Pad1)', 'Net-(D1-K)'}): ['MX6'], frozenset({'Net-(MX17-Pad1)', 'Net-(D1-K)'}): ['MX5'], frozenset({'Net-(MX16-Pad1)', 'Net-(D1-K)'}): ['MX4'], frozenset({'Net-(MX15-Pad1)', 'Net-(D1-K)'}): ['MX3'], frozenset({'Net-(MX14-Pad1)', 'Net-(D1-K)'}): ['MX2'], frozenset({'Net-(MX1-Pad1)', 'Net-(D1-K)'}): ['MX1'], frozenset({'Net-(MX17-Pad1)', 'Net-(D13-K)'}): ['MX17']})
+[key_placer.py:127]: Diodes by switch: {'MX41': ['D41'], 'MX40': ['D40'], 'MX43': ['D39'], 'MX39': ['D39'], 'MX38': ['D38'], 'MX25': ['D25'], 'MX37': ['D37'], 'MX23': ['D23'], 'MX20': ['D20'], 'MX17': ['D17'], 'MX22': ['D22'], 'MX15': ['D15'], 'MX10': ['D10'], 'MX7': ['D7'], 'MX16': ['D16'], 'MX5': ['D5'], 'MX13': ['D13'], 'MX4': ['D4'], 'MX33': ['D33'], 'MX31': ['D31'], 'MX18': ['D18'], 'MX30': ['D30'], 'MX34': ['D34'], 'MX36': ['D36'], 'MX21': ['D21'], 'MX32': ['D32'], 'MX27': ['D27'], 'MX1': ['D1'], 'MX28': ['D28'], 'MX14': ['D14'], 'MX9': ['D9'], 'MX24': ['D24'], 'MX3': ['D3'], 'MX42': ['D42'], 'MX12': ['D12'], 'MX6': ['D6'], 'MX11': ['D11'], 'MX8': ['D8'], 'MX19': ['D19'], 'MX2': ['D2'], 'MX29': ['D29'], 'MX35': ['D35'], 'MX26': ['D26']}
+[kle_serial.py:897]: User layout: [[{'a': 7}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'Back Space'], ['Esc', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ';', "'"], ['Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', ',', '.'], [{'y': -0.75, 'x': 10.5, 'w': 1.25, 'h': 2, 'w2': 1.5, 'h2': 1, 'x2': -0.25}, 'Enter'], [{'y': -0.25, 'w': 1.25}, 'Ctrl'], [{'y': -0.75, 'x': 1.5}, 'Win', 'Alt', {'w': 2.75}, '', {'w': 2.25}, '', 'Alt', 'Fn'], [{'x': 2.5, 'w': 7}, '']]
+[key_placer.py:661]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting MX1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting MX2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting MX3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting MX4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting MX5 footprint position: (114300000, 38100000)
+[board_modifier.py:85]: Setting MX6 footprint position: (133350000, 38100000)
+[board_modifier.py:85]: Setting MX7 footprint position: (152400000, 38100000)
+[board_modifier.py:85]: Setting MX8 footprint position: (171450000, 38100000)
+[board_modifier.py:85]: Setting MX9 footprint position: (190500000, 38100000)
+[board_modifier.py:85]: Setting MX10 footprint position: (209550000, 38100000)
+[board_modifier.py:85]: Setting MX11 footprint position: (228600000, 38100000)
+[board_modifier.py:85]: Setting MX12 footprint position: (247650000, 38100000)
+[board_modifier.py:85]: Setting MX13 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting MX14 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting MX15 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting MX16 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting MX17 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting MX18 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting MX19 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting MX20 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting MX21 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting MX22 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting MX23 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting MX24 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting MX25 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting MX26 footprint position: (57150000, 76200000)
+[board_modifier.py:85]: Setting MX27 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting MX28 footprint position: (95250000, 76200000)
+[board_modifier.py:85]: Setting MX29 footprint position: (114300000, 76200000)
+[board_modifier.py:85]: Setting MX30 footprint position: (133350000, 76200000)
+[board_modifier.py:85]: Setting MX31 footprint position: (152400000, 76200000)
+[board_modifier.py:85]: Setting MX32 footprint position: (171450000, 76200000)
+[board_modifier.py:85]: Setting MX33 footprint position: (190500000, 76200000)
+[board_modifier.py:85]: Setting MX34 footprint position: (209550000, 76200000)
+[board_modifier.py:85]: Setting MX35 footprint position: (240506250, 90487500)
+[board_modifier.py:85]: Setting MX36 footprint position: (40481250, 95250000)
+[board_modifier.py:85]: Setting MX37 footprint position: (66675000, 100012500)
+[board_modifier.py:85]: Setting MX38 footprint position: (85725000, 100012500)
+[board_modifier.py:85]: Setting MX39 footprint position: (121443750, 100012500)
+[board_modifier.py:85]: Setting MX40 footprint position: (169068750, 100012500)
+[board_modifier.py:85]: Setting MX41 footprint position: (200025000, 100012500)
+[board_modifier.py:85]: Setting MX42 footprint position: (219075000, 100012500)
+[board_modifier.py:85]: Setting MX43 footprint position: (142875000, 119062500)
+[key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=-3.5, y=-4.0, orientation=-90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:98]: Getting MX1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting D1 footprint position: (34600000, 34100000)
+[board_modifier.py:98]: Getting MX2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (53650000, 34100000)
+[board_modifier.py:98]: Getting MX3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting D3 footprint position: (72700000, 34100000)
+[board_modifier.py:98]: Getting MX4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting D4 footprint position: (91750000, 34100000)
+[board_modifier.py:98]: Getting MX5 footprint position: (114300000, 38100000)
+[board_modifier.py:85]: Setting D5 footprint position: (110800000, 34100000)
+[board_modifier.py:98]: Getting MX6 footprint position: (133350000, 38100000)
+[board_modifier.py:85]: Setting D6 footprint position: (129850000, 34100000)
+[board_modifier.py:98]: Getting MX7 footprint position: (152400000, 38100000)
+[board_modifier.py:85]: Setting D7 footprint position: (148900000, 34100000)
+[board_modifier.py:98]: Getting MX8 footprint position: (171450000, 38100000)
+[board_modifier.py:85]: Setting D8 footprint position: (167950000, 34100000)
+[board_modifier.py:98]: Getting MX9 footprint position: (190500000, 38100000)
+[board_modifier.py:85]: Setting D9 footprint position: (187000000, 34100000)
+[board_modifier.py:98]: Getting MX10 footprint position: (209550000, 38100000)
+[board_modifier.py:85]: Setting D10 footprint position: (206050000, 34100000)
+[board_modifier.py:98]: Getting MX11 footprint position: (228600000, 38100000)
+[board_modifier.py:85]: Setting D11 footprint position: (225100000, 34100000)
+[board_modifier.py:98]: Getting MX12 footprint position: (247650000, 38100000)
+[board_modifier.py:85]: Setting D12 footprint position: (244150000, 34100000)
+[board_modifier.py:98]: Getting MX13 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting D13 footprint position: (34600000, 53150000)
+[board_modifier.py:98]: Getting MX14 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting D14 footprint position: (53650000, 53150000)
+[board_modifier.py:98]: Getting MX15 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting D15 footprint position: (72700000, 53150000)
+[board_modifier.py:98]: Getting MX16 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting D16 footprint position: (91750000, 53150000)
+[board_modifier.py:98]: Getting MX17 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting D17 footprint position: (110800000, 53150000)
+[board_modifier.py:98]: Getting MX18 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting D18 footprint position: (129850000, 53150000)
+[board_modifier.py:98]: Getting MX19 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting D19 footprint position: (148900000, 53150000)
+[board_modifier.py:98]: Getting MX20 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting D20 footprint position: (167950000, 53150000)
+[board_modifier.py:98]: Getting MX21 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting D21 footprint position: (187000000, 53150000)
+[board_modifier.py:98]: Getting MX22 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting D22 footprint position: (206050000, 53150000)
+[board_modifier.py:98]: Getting MX23 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting D23 footprint position: (225100000, 53150000)
+[board_modifier.py:98]: Getting MX24 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting D24 footprint position: (244150000, 53150000)
+[board_modifier.py:98]: Getting MX25 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting D25 footprint position: (34600000, 72200000)
+[board_modifier.py:98]: Getting MX26 footprint position: (57150000, 76200000)
+[board_modifier.py:85]: Setting D26 footprint position: (53650000, 72200000)
+[board_modifier.py:98]: Getting MX27 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting D27 footprint position: (72700000, 72200000)
+[board_modifier.py:98]: Getting MX28 footprint position: (95250000, 76200000)
+[board_modifier.py:85]: Setting D28 footprint position: (91750000, 72200000)
+[board_modifier.py:98]: Getting MX29 footprint position: (114300000, 76200000)
+[board_modifier.py:85]: Setting D29 footprint position: (110800000, 72200000)
+[board_modifier.py:98]: Getting MX30 footprint position: (133350000, 76200000)
+[board_modifier.py:85]: Setting D30 footprint position: (129850000, 72200000)
+[board_modifier.py:98]: Getting MX31 footprint position: (152400000, 76200000)
+[board_modifier.py:85]: Setting D31 footprint position: (148900000, 72200000)
+[board_modifier.py:98]: Getting MX32 footprint position: (171450000, 76200000)
+[board_modifier.py:85]: Setting D32 footprint position: (167950000, 72200000)
+[board_modifier.py:98]: Getting MX33 footprint position: (190500000, 76200000)
+[board_modifier.py:85]: Setting D33 footprint position: (187000000, 72200000)
+[board_modifier.py:98]: Getting MX34 footprint position: (209550000, 76200000)
+[board_modifier.py:85]: Setting D34 footprint position: (206050000, 72200000)
+[board_modifier.py:98]: Getting MX35 footprint position: (240506250, 90487500)
+[board_modifier.py:85]: Setting D35 footprint position: (237006250, 86487500)
+[board_modifier.py:98]: Getting MX36 footprint position: (40481250, 95250000)
+[board_modifier.py:85]: Setting D36 footprint position: (36981250, 91250000)
+[board_modifier.py:98]: Getting MX37 footprint position: (66675000, 100012500)
+[board_modifier.py:85]: Setting D37 footprint position: (63175000, 96012500)
+[board_modifier.py:98]: Getting MX38 footprint position: (85725000, 100012500)
+[board_modifier.py:85]: Setting D38 footprint position: (82225000, 96012500)
+[board_modifier.py:98]: Getting MX39 footprint position: (121443750, 100012500)
+[board_modifier.py:85]: Setting D39 footprint position: (117943750, 96012500)
+[board_modifier.py:98]: Getting MX40 footprint position: (169068750, 100012500)
+[board_modifier.py:85]: Setting D40 footprint position: (165568750, 96012500)
+[board_modifier.py:98]: Getting MX41 footprint position: (200025000, 100012500)
+[board_modifier.py:85]: Setting D41 footprint position: (196525000, 96012500)
+[board_modifier.py:98]: Getting MX42 footprint position: (219075000, 100012500)
+[board_modifier.py:85]: Setting D42 footprint position: (215575000, 96012500)
+[board_modifier.py:98]: Getting MX43 footprint position: (142875000, 119062500)
+[key_placer.py:774]: Placing additional elements for MX42
+[board_modifier.py:98]: Getting MX42 footprint position: (219075000, 100012500)
+[board_modifier.py:75]: Searching for optional S42 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX41
+[board_modifier.py:98]: Getting MX41 footprint position: (200025000, 100012500)
+[board_modifier.py:75]: Searching for optional S41 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX40
+[board_modifier.py:98]: Getting MX40 footprint position: (169068750, 100012500)
+[board_modifier.py:75]: Searching for optional S40 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:85]: Setting S40 footprint position: (169068750, 100012500)
+[key_placer.py:774]: Placing additional elements for MX43
+[board_modifier.py:98]: Getting MX43 footprint position: (142875000, 119062500)
+[board_modifier.py:75]: Searching for optional S43 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:85]: Setting S43 footprint position: (142875000, 119062500)
+[key_placer.py:774]: Placing additional elements for MX39
+[board_modifier.py:98]: Getting MX39 footprint position: (121443750, 100012500)
+[board_modifier.py:75]: Searching for optional S39 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:85]: Setting S39 footprint position: (121443750, 100012500)
+[key_placer.py:774]: Placing additional elements for MX38
+[board_modifier.py:98]: Getting MX38 footprint position: (85725000, 100012500)
+[board_modifier.py:75]: Searching for optional S38 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX37
+[board_modifier.py:98]: Getting MX37 footprint position: (66675000, 100012500)
+[board_modifier.py:75]: Searching for optional S37 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX36
+[board_modifier.py:98]: Getting MX36 footprint position: (40481250, 95250000)
+[board_modifier.py:75]: Searching for optional S36 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX35
+[board_modifier.py:98]: Getting MX35 footprint position: (240506250, 90487500)
+[board_modifier.py:75]: Searching for optional S35 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:85]: Setting S35 footprint position: (240506250, 90487500)
+[key_placer.py:774]: Placing additional elements for MX34
+[board_modifier.py:98]: Getting MX34 footprint position: (209550000, 76200000)
+[board_modifier.py:75]: Searching for optional S34 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX33
+[board_modifier.py:98]: Getting MX33 footprint position: (190500000, 76200000)
+[board_modifier.py:75]: Searching for optional S33 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX32
+[board_modifier.py:98]: Getting MX32 footprint position: (171450000, 76200000)
+[board_modifier.py:75]: Searching for optional S32 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX31
+[board_modifier.py:98]: Getting MX31 footprint position: (152400000, 76200000)
+[board_modifier.py:75]: Searching for optional S31 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX30
+[board_modifier.py:98]: Getting MX30 footprint position: (133350000, 76200000)
+[board_modifier.py:75]: Searching for optional S30 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX29
+[board_modifier.py:98]: Getting MX29 footprint position: (114300000, 76200000)
+[board_modifier.py:75]: Searching for optional S29 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX28
+[board_modifier.py:98]: Getting MX28 footprint position: (95250000, 76200000)
+[board_modifier.py:75]: Searching for optional S28 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX27
+[board_modifier.py:98]: Getting MX27 footprint position: (76200000, 76200000)
+[board_modifier.py:75]: Searching for optional S27 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX26
+[board_modifier.py:98]: Getting MX26 footprint position: (57150000, 76200000)
+[board_modifier.py:75]: Searching for optional S26 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX25
+[board_modifier.py:98]: Getting MX25 footprint position: (38100000, 76200000)
+[board_modifier.py:75]: Searching for optional S25 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX24
+[board_modifier.py:98]: Getting MX24 footprint position: (247650000, 57150000)
+[board_modifier.py:75]: Searching for optional S24 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX23
+[board_modifier.py:98]: Getting MX23 footprint position: (228600000, 57150000)
+[board_modifier.py:75]: Searching for optional S23 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX22
+[board_modifier.py:98]: Getting MX22 footprint position: (209550000, 57150000)
+[board_modifier.py:75]: Searching for optional S22 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX21
+[board_modifier.py:98]: Getting MX21 footprint position: (190500000, 57150000)
+[board_modifier.py:75]: Searching for optional S21 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX20
+[board_modifier.py:98]: Getting MX20 footprint position: (171450000, 57150000)
+[board_modifier.py:75]: Searching for optional S20 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX19
+[board_modifier.py:98]: Getting MX19 footprint position: (152400000, 57150000)
+[board_modifier.py:75]: Searching for optional S19 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX18
+[board_modifier.py:98]: Getting MX18 footprint position: (133350000, 57150000)
+[board_modifier.py:75]: Searching for optional S18 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX16
+[board_modifier.py:98]: Getting MX16 footprint position: (95250000, 57150000)
+[board_modifier.py:75]: Searching for optional S16 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX15
+[board_modifier.py:98]: Getting MX15 footprint position: (76200000, 57150000)
+[board_modifier.py:75]: Searching for optional S15 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX14
+[board_modifier.py:98]: Getting MX14 footprint position: (57150000, 57150000)
+[board_modifier.py:75]: Searching for optional S14 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX13
+[board_modifier.py:98]: Getting MX13 footprint position: (38100000, 57150000)
+[board_modifier.py:75]: Searching for optional S13 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX12
+[board_modifier.py:98]: Getting MX12 footprint position: (247650000, 38100000)
+[board_modifier.py:75]: Searching for optional S12 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX11
+[board_modifier.py:98]: Getting MX11 footprint position: (228600000, 38100000)
+[board_modifier.py:75]: Searching for optional S11 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX10
+[board_modifier.py:98]: Getting MX10 footprint position: (209550000, 38100000)
+[board_modifier.py:75]: Searching for optional S10 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX9
+[board_modifier.py:98]: Getting MX9 footprint position: (190500000, 38100000)
+[board_modifier.py:75]: Searching for optional S9 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX8
+[board_modifier.py:98]: Getting MX8 footprint position: (171450000, 38100000)
+[board_modifier.py:75]: Searching for optional S8 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX7
+[board_modifier.py:98]: Getting MX7 footprint position: (152400000, 38100000)
+[board_modifier.py:75]: Searching for optional S7 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX6
+[board_modifier.py:98]: Getting MX6 footprint position: (133350000, 38100000)
+[board_modifier.py:75]: Searching for optional S6 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX5
+[board_modifier.py:98]: Getting MX5 footprint position: (114300000, 38100000)
+[board_modifier.py:75]: Searching for optional S5 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX4
+[board_modifier.py:98]: Getting MX4 footprint position: (95250000, 38100000)
+[board_modifier.py:75]: Searching for optional S4 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX3
+[board_modifier.py:98]: Getting MX3 footprint position: (76200000, 38100000)
+[board_modifier.py:75]: Searching for optional S3 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX2
+[board_modifier.py:98]: Getting MX2 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional S2 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX1
+[board_modifier.py:98]: Getting MX1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional S1 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX17
+[board_modifier.py:98]: Getting MX17 footprint position: (114300000, 57150000)
+[board_modifier.py:75]: Searching for optional S17 footprint in C:\Users\1000e\OneDrive\Documents\Keyboard projects\snake\snake-pcb\snake-pcb.kicad_pcb
+[board_modifier.py:80]: Footprint not found

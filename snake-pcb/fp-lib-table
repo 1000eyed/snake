@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "snake")(type "KiCad")(uri "C:/Users/1000e/OneDrive/Documents/Keyboard projects/snake/snake-pcb")(options "")(descr ""))
+)
