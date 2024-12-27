@@ -8,10 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "ScottoModules (STM32F072CBT6)")
+		(title "Snake, based on ScottoModules (STM32F072CBT6)")
 		(date "2024-07-13")
 		(rev "2.0.0")
-		(company "ScottoKeebs")
 		(comment 1 "GND filled zone should be on In1.Cu and In2.Cu on a 4 layer board.")
 		(comment 2 "GND can be used on F.Cu and B.Cu on a 2 layer board but not encouraged.")
 	)
@@ -1042,7 +1041,7 @@
 		)
 		(fp_arc
 			(start 5.499999 -15.28125)
-			(mid 5.853571 -15.134807)
+			(mid 5.853565 -15.134815)
 			(end 5.999999 -14.78125)
 			(stroke
 				(width 0.05)
@@ -1053,7 +1052,7 @@
 		)
 		(fp_arc
 			(start 5.499999 8.53125)
-			(mid 5.853571 8.677693)
+			(mid 5.853565 8.677685)
 			(end 5.999999 9.03125)
 			(stroke
 				(width 0.05)
@@ -1390,7 +1389,7 @@
 		(at 177.356195 141.864505 180)
 		(descr "Footprint for Cherry Clip/Screw in type stabilizers, 2.25u, plated")
 		(property "Reference" "S40"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7987c4d3-da9c-4b6d-a375-f76efb7d9da9")
@@ -1402,7 +1401,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 0 8.128 360)
+			(at 0 8.128 0)
 			(layer "Cmts.User")
 			(uuid "08756016-61cb-4ed6-91b4-b7861fe0d98b")
 			(effects
@@ -1413,7 +1412,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5385604c-a4f5-42d8-b58a-1a756b9ca51c")
@@ -1425,7 +1424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7306e15-1d6c-479f-a83e-811927e59d70")
@@ -1437,7 +1436,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0878e704-ef4b-4fff-be39-236cbf7b2d64")
@@ -1654,7 +1653,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.134806 7.853571)
+			(mid 15.1348 7.853536)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -1665,7 +1664,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133567 -5.853539)
+			(mid 15.133602 -5.853545)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -1676,7 +1675,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677729 7.853537)
+			(mid 8.677693 7.853543)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -1687,7 +1686,7 @@
 		)
 		(fp_arc
 			(start 8.53125 -5.499999)
-			(mid 8.677693 -5.853571)
+			(mid 8.677685 -5.853565)
 			(end 9.03125 -5.999999)
 			(stroke
 				(width 0.05)
@@ -1793,7 +1792,7 @@
 		(at 129.731195 141.864505 180)
 		(descr "Footprint for Cherry Clip/Screw in type stabilizers, 2.75u")
 		(property "Reference" "S39"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "036602de-53bd-4212-afb8-60441333be6b")
@@ -1805,7 +1804,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 0 8.128 360)
+			(at 0 8.128 0)
 			(layer "Cmts.User")
 			(uuid "b455d83a-a19a-4120-a6fb-281156fb05bb")
 			(effects
@@ -1816,7 +1815,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.75u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03d7bd44-cfe7-4c83-bf31-2a09996dfd8b")
@@ -1828,7 +1827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c58ee182-b488-4ec6-9511-539704ea619f")
@@ -1840,7 +1839,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a41b638e-37ff-4388-950e-1055a773d759")
@@ -2057,7 +2056,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.134806 7.853571)
+			(mid 15.1348 7.853536)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -2068,7 +2067,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133567 -5.853539)
+			(mid 15.133602 -5.853545)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -2079,7 +2078,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677729 7.853537)
+			(mid 8.677693 7.853543)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -2090,7 +2089,7 @@
 		)
 		(fp_arc
 			(start 8.53125 -5.499999)
-			(mid 8.677693 -5.853571)
+			(mid 8.677685 -5.853565)
 			(end 9.03125 -5.999999)
 			(stroke
 				(width 0.05)
@@ -2840,7 +2839,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -3087,7 +3086,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -3170,7 +3169,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -3678,7 +3677,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -3925,7 +3924,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -4008,7 +4007,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -4458,7 +4457,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED23"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c9392236-285f-498c-895f-88dae3a809e2")
@@ -4471,7 +4470,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "60746bdc-cf9a-4d60-ba09-cedeb6cc5c82")
 			(effects
@@ -4638,7 +4637,7 @@
 			(uuid "56b3599f-48da-4941-9cfe-90af91802d2d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8f47b531-1c11-4fc0-b4ea-89d351899a2e")
 			(effects
@@ -4845,7 +4844,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -5092,7 +5091,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -5175,7 +5174,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -5455,7 +5454,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -5702,7 +5701,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -5785,7 +5784,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -6065,7 +6064,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -6312,7 +6311,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -6395,7 +6394,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -6775,7 +6774,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED25"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "fa6cf083-5f78-4a1c-84ba-28061a56f575")
@@ -6788,7 +6787,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "f9bc63e0-c087-4284-b838-ce42adc04caa")
 			(effects
@@ -6955,7 +6954,7 @@
 			(uuid "335b1b87-ee92-4a81-b56d-ac2a62a5fb1d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "1fd5af4b-50b3-4100-a545-b8796d75f4ad")
 			(effects
@@ -8205,7 +8204,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED4"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "9042c799-7e50-460b-b9a0-3d665d924b72")
@@ -8218,7 +8217,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "359a5ad6-c2ce-43c6-9706-c3ba9b25ea8a")
 			(effects
@@ -8385,7 +8384,7 @@
 			(uuid "93e95e47-726a-4e55-be46-8c420ea5065f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "4bf0d7f7-e337-4125-86c9-b8205eed8fa3")
 			(effects
@@ -9149,7 +9148,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -9396,7 +9395,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -9479,7 +9478,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -9759,7 +9758,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -10006,7 +10005,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -10089,7 +10088,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -10437,7 +10436,7 @@
 		(at 74.962445 141.864505 180)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX37"
-			(at -4.25 1.75 360)
+			(at -4.25 1.75 0)
 			(layer "B.SilkS")
 			(uuid "c869f27a-a404-4c75-a88e-06c524ecbd15")
 			(effects
@@ -10449,7 +10448,7 @@
 			)
 		)
 		(property "Value" "MX_SW_solder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "bd0e7570-9f5c-41ba-82f4-6bc027842ae4")
 			(effects
@@ -10461,7 +10460,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2f3179bd-5499-4681-bc93-81e8e1b25595")
@@ -10474,7 +10473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c0f3a896-384f-475d-bc35-b29becea9b2d")
@@ -10487,7 +10486,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ae52045d-cf32-4a3f-988c-c2f9a4104cce")
@@ -10575,7 +10574,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -10833,7 +10832,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -10916,7 +10915,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -10937,7 +10936,7 @@
 			(uuid "427fdcb1-2f6c-464f-8e53-b637d4f2f80c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 4.5 360)
+			(at 0.5 4.5 0)
 			(layer "B.Fab")
 			(uuid "4d2ded3b-133c-4a9d-8901-44b165162c0e")
 			(effects
@@ -13199,7 +13198,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -13446,7 +13445,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -13529,7 +13528,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -14068,7 +14067,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -14315,7 +14314,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -14398,7 +14397,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -15451,7 +15450,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED15"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "df682b47-b9a3-4be3-aa6e-f08a41b98199")
@@ -15464,7 +15463,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "147f4880-47d0-4c46-a996-b2f1c0a5a8ee")
 			(effects
@@ -15631,7 +15630,7 @@
 			(uuid "dc856493-34c0-43b9-a0a4-3ef6715dca16")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8162278b-df70-46fa-8be6-eb0ba8fd2539")
 			(effects
@@ -16685,7 +16684,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -16932,7 +16931,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -17015,7 +17014,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -17136,7 +17135,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED13"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d66da139-513f-4d63-83e9-479b5109bef4")
@@ -17149,7 +17148,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "58293bcf-1125-47aa-8cc1-969b961ec305")
 			(effects
@@ -17316,7 +17315,7 @@
 			(uuid "2f3f9123-2471-4f50-840e-a346fc68467e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c355da58-268a-4afa-b5e1-574839ae5a4c")
 			(effects
@@ -18281,7 +18280,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED28"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "f123254b-cf1c-4aaa-bede-6af54aef4f7f")
@@ -18294,7 +18293,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "b7bff44d-db84-4db6-a46b-da632696b64b")
 			(effects
@@ -18461,7 +18460,7 @@
 			(uuid "79abb98d-43fc-4caa-a61c-cd13e288c9c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "964ae091-d200-403c-b3cf-63beb725d888")
 			(effects
@@ -20369,7 +20368,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED18"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "2a039519-c469-47f3-8a3c-82f0c28fcccf")
@@ -20382,7 +20381,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "8f391a7e-801e-49d7-99c9-a373d8ec05ce")
 			(effects
@@ -20549,7 +20548,7 @@
 			(uuid "c7306402-4334-4c47-b063-6a6a8b011979")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f9c1f1e8-9761-422d-851a-c414666fd392")
 			(effects
@@ -20597,7 +20596,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED21"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b0ce3123-7381-4b80-a360-18b6565385e2")
@@ -20610,7 +20609,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "88d54d77-514d-4024-b009-1a82222b267e")
 			(effects
@@ -20777,7 +20776,7 @@
 			(uuid "4387282b-0af8-4c3c-ba26-2bcf6a200f89")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "b8930883-0a4d-4f74-aad8-9a4c8cb51459")
 			(effects
@@ -21084,7 +21083,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED17"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0b9b4842-75c0-41e1-9a53-a504e3a19aac")
@@ -21097,7 +21096,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "bd5a440d-6193-4486-ad22-356fbdf8491d")
 			(effects
@@ -21264,7 +21263,7 @@
 			(uuid "a22c9657-ce9b-4dcc-bd2a-44bd9af3843c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "132af9da-3c4c-4417-a16d-1c8950e7eab8")
 			(effects
@@ -21311,7 +21310,7 @@
 		(at 227.362445 141.864505 180)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX42"
-			(at -4.25 1.75 360)
+			(at -4.25 1.75 0)
 			(layer "B.SilkS")
 			(uuid "5abb08bb-ee80-4ff8-8d8f-95a8a2272e89")
 			(effects
@@ -21323,7 +21322,7 @@
 			)
 		)
 		(property "Value" "MX_SW_solder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "5b9f6538-c536-4230-8ae3-f537f161ca12")
 			(effects
@@ -21335,7 +21334,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "53cacc68-c818-4649-9abd-9a1c18784b2b")
@@ -21348,7 +21347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d9d64ec1-9252-4e3f-9a00-6757f2446269")
@@ -21361,7 +21360,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7e865952-5020-42b1-97d3-119b55c0e1f0")
@@ -21449,7 +21448,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -21707,7 +21706,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -21790,7 +21789,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -21811,7 +21810,7 @@
 			(uuid "74a8847d-d5de-4916-9c8a-ba01a3633a17")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 4.5 360)
+			(at 0.5 4.5 0)
 			(layer "B.Fab")
 			(uuid "fe0f6b98-e84f-43f7-bb0e-55d6eb87f489")
 			(effects
@@ -22839,7 +22838,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED1"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "00f4b418-be50-4782-acda-d1a4caa3dba3")
@@ -22852,7 +22851,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "63b7e168-0478-4ed2-8cfd-0a5e618a0de2")
 			(effects
@@ -23019,7 +23018,7 @@
 			(uuid "22e68ce0-8f22-414f-815f-ede2045ad6f0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c2744937-3a37-4d99-8988-6513bf929674")
 			(effects
@@ -23067,7 +23066,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED7"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6f36336b-9e53-4665-8078-e86a93f4bac0")
@@ -23080,7 +23079,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "2f33719f-d1ae-4273-b6ee-ba1fb34cffed")
 			(effects
@@ -23247,7 +23246,7 @@
 			(uuid "70eaba07-db48-4ba6-8e97-642dc5d2cbde")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "6c426d98-f26e-438b-92d9-63d100b9a78f")
 			(effects
@@ -24301,7 +24300,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -24548,7 +24547,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -24631,7 +24630,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -24751,7 +24750,7 @@
 		(at 217.837445 118.052005)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX34"
-			(at -4.25 1.75 360)
+			(at -4.25 1.75 0)
 			(layer "B.SilkS")
 			(uuid "7792472b-15db-439a-9822-a960bfbb95da")
 			(effects
@@ -24763,7 +24762,7 @@
 			)
 		)
 		(property "Value" "MX_SW_solder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8a705055-5a42-477f-a5ae-24e5bae5114d")
 			(effects
@@ -24775,7 +24774,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fcfe9d37-2846-42c0-8041-5e8227c7593a")
@@ -24788,7 +24787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3e230c84-5cc2-4e88-b22e-ab53acd7dc06")
@@ -24801,7 +24800,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f7b9bac2-ae10-4666-816b-6fe79c694dd0")
@@ -24911,7 +24910,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -25158,7 +25157,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -25241,7 +25240,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -25251,7 +25250,7 @@
 			(uuid "67b595c0-7e8c-4cad-b776-0c0e7ca08729")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 4.5 360)
+			(at 0.5 4.5 0)
 			(layer "B.Fab")
 			(uuid "6ee177c7-b790-4b40-b51e-46f2a9977418")
 			(effects
@@ -25919,7 +25918,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED2"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "31c6bf64-196e-4192-8924-cfaee1a72d8f")
@@ -25932,7 +25931,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "4f37e075-645a-439e-a380-8b6710b5bdbb")
 			(effects
@@ -26099,7 +26098,7 @@
 			(uuid "ea463aa6-ea35-47b9-82fc-4a78de453273")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "bbdef3a9-a1b6-4e4d-92b5-43c67c195d4c")
 			(effects
@@ -26476,7 +26475,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED31"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "dadef98d-6246-4797-9da3-922e51428210")
@@ -26489,7 +26488,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "00ebbb51-d432-4c85-9029-b30e4be02947")
 			(effects
@@ -26656,7 +26655,7 @@
 			(uuid "11a1c4b6-c656-40ea-810d-5004a2aa4dd6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "0b15a1e8-37c4-434e-8cdd-3a92d2d91e07")
 			(effects
@@ -27122,7 +27121,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -27369,7 +27368,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -27452,7 +27451,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -30543,7 +30542,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -30790,7 +30789,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -30873,7 +30872,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -31955,7 +31954,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -32202,7 +32201,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -32285,7 +32284,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -32565,7 +32564,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -32812,7 +32811,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -32895,7 +32894,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -33016,7 +33015,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED30"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "df14c055-b92b-4a8f-bb99-32c9bf380a79")
@@ -33029,7 +33028,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "ba991fbe-5e2e-45b5-b861-4799d27aac7f")
 			(effects
@@ -33196,7 +33195,7 @@
 			(uuid "80f5d6ca-474e-4db5-9975-8391eef17e29")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "b57fc050-0a95-43e6-bb0a-b17037e5ab75")
 			(effects
@@ -34548,7 +34547,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -34795,7 +34794,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -34878,7 +34877,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -35328,7 +35327,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED22"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "30b08956-4166-4779-afde-cb474a6203d4")
@@ -35341,7 +35340,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "930e2879-71fa-42c1-8c62-958427c0975b")
 			(effects
@@ -35508,7 +35507,7 @@
 			(uuid "02c14834-ae3d-4f43-9bcb-137d369f8402")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "51e323d7-ca37-4c05-a034-7abeb5fec51a")
 			(effects
@@ -36233,7 +36232,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -36480,7 +36479,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -36563,7 +36562,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -36684,7 +36683,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED3"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "4f932c35-c8b5-447d-b190-ba3e88895e9e")
@@ -36697,7 +36696,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "4cfa0a4d-7b61-4762-9b89-396b7e32c48c")
 			(effects
@@ -36864,7 +36863,7 @@
 			(uuid "74005db2-81e4-4356-a0d2-82f73969cfe6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "82056bb2-90d4-4f0e-86c7-a865028e2cfb")
 			(effects
@@ -37759,7 +37758,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED24"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "a85b12ea-5060-4665-8e5d-0b88d6e87b47")
@@ -37772,7 +37771,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "4c04eb2f-2dfd-4ead-8532-e72987b60aea")
 			(effects
@@ -37939,7 +37938,7 @@
 			(uuid "fc4621fc-58a3-47a2-a945-673345553727")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "65b11346-2c3e-423f-a1f8-a9bf3504d41b")
 			(effects
@@ -38146,7 +38145,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -38393,7 +38392,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -38476,7 +38475,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -39085,7 +39084,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -39332,7 +39331,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -39415,7 +39414,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -41586,7 +41585,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -41833,7 +41832,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -41916,7 +41915,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -43201,7 +43200,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -43448,7 +43447,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -43531,7 +43530,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -43811,7 +43810,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -44058,7 +44057,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -44141,7 +44140,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -44421,7 +44420,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -44668,7 +44667,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -44751,7 +44750,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -44872,7 +44871,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED26"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "7537f9af-1c14-44e9-9276-58fb49dc4d04")
@@ -44885,7 +44884,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "5dc21b96-6932-4112-9501-dcd9d1ad3983")
 			(effects
@@ -45052,7 +45051,7 @@
 			(uuid "d59ebdb3-d52d-40bf-9bd3-0ff3e49050d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8c1230b4-8a66-4cb8-8629-787d85662c64")
 			(effects
@@ -45259,7 +45258,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -45506,7 +45505,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -45589,7 +45588,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -45710,7 +45709,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED33"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d832e3bb-20d0-4042-8c3e-db1805ad93d8")
@@ -45723,7 +45722,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "6b428146-f81d-4a37-ab35-982fe27e48dd")
 			(effects
@@ -45890,7 +45889,7 @@
 			(uuid "a45c54ab-1bfd-4191-967d-37dd246861a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d4b5b968-39bb-4d98-a8a7-f5bc4d9b0e4f")
 			(effects
@@ -47273,7 +47272,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -47520,7 +47519,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -47603,7 +47602,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -47883,7 +47882,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -48130,7 +48129,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -48213,7 +48212,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -48549,7 +48548,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED19"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "5748e90d-3482-4edf-a6e5-225fb9702517")
@@ -48562,7 +48561,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "9b553fa5-51a5-482f-a77f-bdcc05d6936b")
 			(effects
@@ -48729,7 +48728,7 @@
 			(uuid "e93e85c7-6067-442d-bac4-c78343afa1d5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "483ddbaf-910f-4b86-b9ec-a35c7e9595c1")
 			(effects
@@ -48936,7 +48935,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -49183,7 +49182,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -49266,7 +49265,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -49546,7 +49545,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -49793,7 +49792,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -49876,7 +49875,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -49997,7 +49996,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED9"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "4bb661c3-3721-4c2f-8aba-c27d618df59a")
@@ -50010,7 +50009,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "4ba260b5-0e4d-4142-a899-fb28efd4cccf")
 			(effects
@@ -50177,7 +50176,7 @@
 			(uuid "8eea6529-7919-4492-96cc-d0172def06bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "7581dc1b-eaf3-458f-980d-f4dbfa3196eb")
 			(effects
@@ -50713,7 +50712,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -50960,7 +50959,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -51043,7 +51042,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -51866,7 +51865,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -52113,7 +52112,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -52196,7 +52195,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -52963,7 +52962,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -53210,7 +53209,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -53293,7 +53292,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -53901,7 +53900,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED27"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "85dc9df8-8440-4680-971f-7b528c00dc2c")
@@ -53914,7 +53913,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "311d9ab0-25c3-4cb4-9855-29bc3f1716de")
 			(effects
@@ -54081,7 +54080,7 @@
 			(uuid "3c8cb258-d9fc-4334-9e45-d0be20325fed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "68d84717-ee58-4f3b-820d-0598a3a4c062")
 			(effects
@@ -54288,7 +54287,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -54535,7 +54534,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -54618,7 +54617,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -54898,7 +54897,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -55145,7 +55144,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -55228,7 +55227,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -56166,7 +56165,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -56413,7 +56412,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -56496,7 +56495,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -56946,7 +56945,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED11"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c68dfaa5-b8cc-407c-b91c-652c78c8e00c")
@@ -56959,7 +56958,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "8ac793c0-b854-4ba0-ac57-20ff717d69b7")
 			(effects
@@ -57126,7 +57125,7 @@
 			(uuid "72a35cce-ec75-49ea-97d6-34bc2d8da480")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "331ecca5-500b-4967-9459-3928d5202054")
 			(effects
@@ -58110,7 +58109,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -58357,7 +58356,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -58440,7 +58439,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -59843,7 +59842,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -60090,7 +60089,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -60173,7 +60172,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -60294,7 +60293,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED12"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "28ad2438-0d76-4c2f-85f3-99478279a08f")
@@ -60307,7 +60306,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "f7e7c5e1-f844-4b51-8772-d015955736e4")
 			(effects
@@ -60474,7 +60473,7 @@
 			(uuid "5941e1c6-6353-4e4e-82ab-080ca158cf44")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "784e1857-f9ac-483a-a31c-1a1c79d2700d")
 			(effects
@@ -60781,7 +60780,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED32"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d02ab715-eef2-4dcd-9b15-1765d0c92e37")
@@ -60794,7 +60793,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "1547bf50-14cd-4325-9501-62e83827ec2a")
 			(effects
@@ -60961,7 +60960,7 @@
 			(uuid "890107ae-2a5c-4374-956a-3136f515e43c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "1c90c6ab-a594-4352-a6f7-d7caad56f564")
 			(effects
@@ -61009,7 +61008,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED16"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "66cfbce7-fd2b-4adf-93c8-c2653b087216")
@@ -61022,7 +61021,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "20fed0c0-6618-4334-80eb-9be8b51bfafa")
 			(effects
@@ -61189,7 +61188,7 @@
 			(uuid "f3192ee6-2303-4f59-bf48-0079db545dfe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "b31e7477-1e80-4a8e-84e0-2af0fd8e5e15")
 			(effects
@@ -61237,7 +61236,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED20"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "af84877e-68f2-46b1-9e98-ae678524875f")
@@ -61250,7 +61249,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "0508a1be-1a61-450d-a58d-0f657e26bc58")
 			(effects
@@ -61417,7 +61416,7 @@
 			(uuid "43a99af9-fdd5-412e-aa02-85b5732dcdeb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "65c4551d-3920-492d-8830-174571a123e6")
 			(effects
@@ -61839,7 +61838,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -62086,7 +62085,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -62169,7 +62168,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -62449,7 +62448,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -62696,7 +62695,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -62779,7 +62778,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -62900,7 +62899,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED5"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "80c27d56-885c-40be-9c70-2501682e607a")
@@ -62913,7 +62912,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "ebd3ec1d-f079-41d7-b817-08d5950bbc37")
 			(effects
@@ -63080,7 +63079,7 @@
 			(uuid "11bd486e-dd41-4e88-b5cb-4b51230738b9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "97779878-cbe3-41de-ad75-f95695eabe42")
 			(effects
@@ -64985,7 +64984,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -65232,7 +65231,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -65315,7 +65314,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -66411,7 +66410,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -66658,7 +66657,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -66741,7 +66740,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -68747,7 +68746,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED29"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "ba947f67-ecbb-4177-bda7-1cb99953829c")
@@ -68760,7 +68759,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "e052d563-138a-4a2c-8bf2-f254b6c6325e")
 			(effects
@@ -68927,7 +68926,7 @@
 			(uuid "93214fae-eefa-413e-947e-21d29aa55b6a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "dc67281b-c305-4968-a825-736d5518913c")
 			(effects
@@ -68975,7 +68974,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED14"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6b6e0058-d456-4aac-a868-0c976c762425")
@@ -68988,7 +68987,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "5db6047f-51e9-417b-8fe5-614891ecb0de")
 			(effects
@@ -69155,7 +69154,7 @@
 			(uuid "72fd2239-deaa-4b1c-a693-b944a630817a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "45b3aa87-b57f-4efc-a251-44f60231b4a2")
 			(effects
@@ -69203,7 +69202,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED8"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "99c33954-2e13-49c6-a26f-40470a309de3")
@@ -69216,7 +69215,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "abe2d26e-ba11-4a6c-a966-0de17efae8f9")
 			(effects
@@ -69383,7 +69382,7 @@
 			(uuid "7b2ba512-8246-4d19-b539-c37e9b728cf7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c110dbdf-7624-4121-8ac3-81516c97c9c8")
 			(effects
@@ -69431,7 +69430,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CapLED10"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "543ab547-db78-48ee-9f45-8ead9b346cf3")
@@ -69444,7 +69443,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "084a2300-0246-4a74-94fd-15e1335898a3")
 			(effects
@@ -69611,7 +69610,7 @@
 			(uuid "ac096276-85e9-4ffd-b22c-65e5acaa1bfd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "857ff60f-8ce7-4527-88d5-d2d8c3577950")
 			(effects
@@ -70034,6 +70033,18 @@
 		(layer "Edge.Cuts")
 		(uuid "fd5b1f8f-5c34-45e0-bfe9-99c12199e3f5")
 	)
+	(gr_text "3.3V"
+		(at 250.352445 91.107005 -90)
+		(layer "B.SilkS")
+		(uuid "0b728946-9271-4a4d-b3e9-ad35cc5521fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 150.162445 111.152005 -45)
 		(layer "B.SilkS")
@@ -70044,6 +70055,54 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "SDA"
+		(at 257.902445 93.907005 -90)
+		(layer "B.SilkS")
+		(uuid "17b57049-a3ec-4442-a2f5-ff0ce95e8786")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5V"
+		(at 260.402445 93.027005 -90)
+		(layer "B.SilkS")
+		(uuid "8eb27df5-67cc-4db9-80c9-705335963b73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SCL"
+		(at 255.402445 93.787005 -90)
+		(layer "B.SilkS")
+		(uuid "9c8b6e47-7533-499b-9d0d-b67cb605832c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 262.982445 94.117005 -90)
+		(layer "B.SilkS")
+		(uuid "d89f7535-282f-4358-b12e-dd1aef70adc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
