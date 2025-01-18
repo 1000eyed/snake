@@ -482,10 +482,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "svg",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "snake-pcb.step",
       "svg": "",
       "vrml": ""
     },
