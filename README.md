@@ -1,6 +1,6 @@
 # Snake
 
-A semi-ortholinear keyboard with LEDs and spacebar options.
+A semi-ortholinear keyboard with LEDs, rotary encoder support and spacebar options.
 
 ## How to build one
 
@@ -13,6 +13,7 @@ Very easy project.
 | 42    | hotswap sockets      | Whatever you are into                 |
 | 42    | switches             | MX compatible                        |
 | 42    | Keycaps              | MX-compatible                         |
+| 1     | Rotary Encoder       | optional                             |
 | NA    | Rubber cord D3.53 mm |  https://www.amazon.de/-/en/SHOCRE-Rubber-Gasket-Nitrile-Diameter/dp/B0CGDMGRZM      |
 
 - Solder the sockets to the PCB according to chosen layout. 
